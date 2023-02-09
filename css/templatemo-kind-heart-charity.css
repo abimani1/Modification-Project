@@ -1662,3 +1662,34 @@ blockquote::before {
   }
 }
 
+.row-01{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  margin-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.im1 img{
+  width: 130px;
+  height: 90px;
+  opacity: 0.5;
+}
+
+#section-13{
+background-color: #383f44;
+
+}
+
+.im1 img:hover{
+  opacity: 1;
+}
+
+.mk{
+  margin-top: 20px;
+}
+
+.our-client{
+  padding-top: 20px;
+}
