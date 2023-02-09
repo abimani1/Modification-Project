@@ -123,6 +123,7 @@ h2 {
 
 h3 {
   font-size: var(--h3-font-size);
+  color: var(--secondary-color);
 }
 
 h4 {
@@ -559,8 +560,8 @@ strong {
   HERO & HERO SLIDE         
 -----------------------------------------*/
 .hero-section-full-height {
-  height: 680px;
-  min-height: 680px;
+  height: 550px;
+  min-height: 550px;
   position: relative;
 }
 
@@ -570,8 +571,8 @@ strong {
 }
 
 #hero-slide .carousel-item {
-  height: 680px;
-  min-height: 680px;
+  height: 550px;
+  min-height: 550px;
 }
 
 #hero-slide .carousel-caption {
@@ -583,15 +584,15 @@ strong {
   right: 0;
   left: auto;
   text-align: right;
-  min-width: 600px;
-  min-height: 600px;
+  min-width: 550px;
+  min-height: 550px;
   padding: 100px 100px 50px 100px;
 }
 
 .carousel-image {
   display: block;
   width: 100%;
-  min-height: 680px;
+  min-height: 550px;
 }
 
 #hero-slide .carousel-indicators-wrap {
@@ -617,8 +618,8 @@ strong {
   background-color: var(--secondary-color);
   border-radius: var(--border-radius-large);
   background-size: 60% 60%;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   opacity: 0;
   transition: all 0.5s;
 }
