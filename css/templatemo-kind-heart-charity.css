@@ -1759,8 +1759,20 @@ background-color: #383f44;
 }
 
 .active, .accordion:hover {
-  background-color: #ccc; 
+  background-color: #bbbaba; 
 }
+.accordion:after {
+  content: "\2228";
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2227";
+}
+
+
 
 .panel {
   padding: 0 18px;
