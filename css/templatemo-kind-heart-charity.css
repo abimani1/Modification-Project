@@ -1759,9 +1759,12 @@ background-color:azure;
   font-size: 15px;
   transition: 0.4s;
 }
+.mb-4{
+  color: #74bbeb;
+}
 
 .active, .accordion1:hover {
-  background-color: #bbbaba; 
+  background-color: #74bbeb; 
 }
 .accordion1:after {
   content: "\2228";
