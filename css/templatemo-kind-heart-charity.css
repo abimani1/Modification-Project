@@ -1699,7 +1699,7 @@ background-color: #383f44;
 
 
 .wang img{
-  width: 600px;
+  width: 500px;
   height: 570px;
   border-radius: 10px;
 }
@@ -1745,7 +1745,7 @@ background-color: #383f44;
   height: 60px;
 }
 
-.accordion {
+.accordion1 {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -1758,17 +1758,17 @@ background-color: #383f44;
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active, .accordion1:hover {
   background-color: #bbbaba; 
 }
-.accordion:after {
+.accordion1:after {
   content: "\2228";
   font-weight: bold;
   float: right;
   margin-left: 5px;
 }
 
-.active:after {
+.active.accordion1:after {
   content: "\2227";
 }
 
