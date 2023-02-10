@@ -976,7 +976,7 @@ blockquote::before {
 }
 
 #testimonial-carousel .carousel-title {
-  background: var(--section-bg-color);
+  /* background: var(--section-bg-color); */
   line-height: normal;
   margin-bottom: 30px;
 }
@@ -1000,7 +1000,7 @@ blockquote::before {
 }
 
 #testimonial-carousel .carousel-title {
-  quotes: "“" "”" "‘" "’";
+  quotes: "“" "”" """ """;
 }
 
 #testimonial-carousel .carousel-name {
@@ -1060,7 +1060,6 @@ blockquote::before {
   width: 50px; 
   height: 50px;
 }
-
 
 /*---------------------------------------
   CONTACT               
@@ -1665,9 +1664,8 @@ blockquote::before {
 .row-01{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 150px;
-  margin-left: 150px;
-  padding-top: 20px;
   padding-bottom: 70px;
 }
 
@@ -1676,9 +1674,12 @@ blockquote::before {
   height: 90px;
   opacity: 0.5;
 }
+.im1{
+  padding-bottom: 50px;
+}
 
 #section-13{
-background-color: #383f44;
+background-color:azure;
 
 }
 
@@ -1698,11 +1699,9 @@ background-color: #383f44;
   width:auto;
 }
 
-.wang{
-  
-}
+
 .wang img{
-  width: 600px;
+  width: 500px;
   height: 570px;
   border-radius: 10px;
 }
@@ -1748,7 +1747,7 @@ background-color: #383f44;
   height: 60px;
 }
 
-.accordion {
+.accordion1 {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -1761,9 +1760,21 @@ background-color: #383f44;
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc; 
+.active, .accordion1:hover {
+  background-color: #bbbaba; 
 }
+.accordion1:after {
+  content: "\2228";
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active.accordion1:after {
+  content: "\2227";
+}
+
+
 
 .panel {
   padding: 0 18px;
@@ -1780,4 +1791,46 @@ background-color: #383f44;
 .row-002{
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.row-01{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.im1{
+  animation: dir;
+  animation-iteration-count: infinite;
+  transition: all 0.3s;
+}
+
+.img2{
+  animation: dir;
+  animation-iteration-count: infinite;
+  transition: all 0.3s;
+}
+
+.im1 img{
+  width: 130px;
+  height: 100px;
+  opacity: 0.8;
+  animation: dir;
+  animation-duration: 1s;
+  transition: all 0.3s;
+}
+
+.img2 img{
+  opacity: 0.8;
+  animation: dir;
+  animation-duration: 1s;
+  transition: all 0.3s;
+}
+
+.im1 img:hover{
+  transform: translatey(-10px);
+  opacity: 1;
 }
