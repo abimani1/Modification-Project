@@ -1683,6 +1683,11 @@ background-color:azure;
 
 }
 
+.our-client-item{
+  display: flex;
+  justify-content: center;
+}
+
 .im1 img:hover{
   opacity: 1;
 }
