@@ -1849,3 +1849,21 @@ background-color:azure;
    width: 200px;
    margin-left: 127px;
 }
+.noverride {
+  color: #000000;
+  background-color: red;
+  border-radius: 50px;
+  width: 200px;
+  text-align: center;
+  margin-left: 270px;
+  margin-bottom: 0rem;
+}
+.terms-policy-section {
+  background-color:rgb(207, 227, 188);
+}
+.terms-policy-section h2 {
+    color:rgb(4, 94, 94);
+}
+.terms-policy-section ul li {
+  color: #000000;
+}
